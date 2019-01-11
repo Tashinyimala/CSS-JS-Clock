@@ -16,8 +16,13 @@ function setDate() {
     const hourDeg   = ((hours / 12) * 360) + 90;
 
     secondHand.style.transform = `rotate(${secondDeg}deg)`;
+    secondHand.textContent     = "sec: " + seconds; 
+
     minuteHand.style.transform = `rotate(${minuteDeg}Deg)`;
+    minuteHand.textContent     = "min: " + minutes; 
+
     hourHand.style.transform   = `rotate(${hourDeg}Deg)`;
+    hourHand.textContent       = "hour: " + hours; 
 }
 
 setInterval(setDate, 1000);
