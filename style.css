@@ -49,3 +49,19 @@ html {
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1)
   }
+
+  .second-hand {
+    background-color: #183449;
+    color: #EFEFEF;
+    font-size: 0.6rem;
+  }
+
+  .min-hand {
+    background-color: #FF9801;
+    font-size: 0.6rem;
+    color:white;
+  }
+  .hour-hand {
+    font-size: 0.6rem;
+    color:white;
+  }
